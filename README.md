@@ -1,5 +1,5 @@
 Projekt polega na rozpoznawaniu mówcy na podstawie głosu. W tym celu wykorzystano sieci rekurencyjne z warstwą bottleneck, która tworzy embeddingi.<br>
-Na podstawie podobieństwa audio między nagraniami enrollment oraz test oceniana jest jakość modeli (LSTM, GRU i klasycznego RNN). <br> 
+Na podstawie podobieństwa audio między nagraniami enrollment oraz test (dla różnych poziomów threshold) oceniana jest jakość modeli (LSTM, GRU i klasycznego RNN). <br> 
 <br> 
 rnn-building-model.ipynb – w pliku budowane są modele RNN: LSTM, GRU oraz klasyczna sieć RNN. Wszystkie macierze MFCC zostały wzbogacone o pochodne 1. i 2. rzędu. <br> 
 <br> 
